@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'CursedTimerULiL';
+    src: url('CursedTimerULiL.ttf') format('truetype');
+}
+body {
+    margin: 0;
+    background: cover;
+    background-color: #1B244A;
+    font-family: verdana, 'CursedTimerULiL';
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.hscreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.gscreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#h-score {
+    width: 120px;
+    height: 80px;
+    background-color: #080001;
+    font-family: 'CursedTimerULiL';
+    color: #F94F6D;
+    font-size: 60px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#g-score {
+    width: 120px;
+    height: 80px;
+    background-color: #080001;
+    font-family: 'CursedTimerULiL';
+    color: #F94F6D;
+    font-size: 60px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: #EEEEEE;
+    font: verdana;
+}
+#hcounter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    color: #9AABD8;
+    font-family: 'CursedTimerULiL';
+}
+#gcounter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    color: #9AABD8;
+    font-family: 'CursedTimerULiL';
+}
+#hplusone {
+    border: solid, 1px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 8px 6px;
+}
+#hplustwo {
+    border: solid, 1px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 8px 6px;
+}
+#hplusthree {
+    border: solid, 1px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 8px 6px;
+}
+#gplusone {
+    border: solid, 1px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 8px 6px;
+}
+#gplustwo {
+    border: solid, 1px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 8px 6px;
+}
+#gplusthree {
+    border: solid, 1px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 8px 6px;
+}
